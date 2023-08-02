@@ -34,11 +34,7 @@ def find_axis(map, point):
         print("Invalid map input.")
         quit()
     return axis
-        
-
-        
-
-
+    
 def error_check(map, max_x, max_y):
     x = False
     if len(map) != max_y:
@@ -79,4 +75,3 @@ def find_path(map):
                         exit()
             
 find_path(map)
-
