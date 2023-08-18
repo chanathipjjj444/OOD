@@ -7,11 +7,8 @@ def find(length, sour, bitter):
         if bitter > 0 and diff(sour, bitter) < best:
             best = diff(sour, bitter)
     else:
-        find(length + 1,sour, bitter)
         find(length + 1, sour * sour_l[length], bitter + bitter_l[length])
-        
-
-
+        find(length + 1,sour, bitter)
 
 
 inp = input("Enter Input : ").split(",")
