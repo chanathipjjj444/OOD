@@ -8,5 +8,3 @@ def isomorph(a, b):
 
 isomorph(inp1, inp2)
 
-
-lst = [1,2,3,4,1]
